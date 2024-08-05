@@ -153,13 +153,7 @@ margin-top: 10px;
     align-items: center;
     margin: 10px;
 }
-.containerEtc .contentArticle .icon {
-    flex-shrink: 0;
-}
-.containerEtc .contentArticle .content {
-    flex-grow: 1;
-    padding: 10px;
-}
+
 .topArticle {
     display: flex;
     justify-content: left;
