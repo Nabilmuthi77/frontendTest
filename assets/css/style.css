@@ -1,0 +1,166 @@
+/* #It is be Mine after I was strugle */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to right, 
+                                lavender, 
+                                white, 
+                                lightblue, 
+                                white);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background: linear-gradient(to right, white, lavender, white, lightblue, white);
+    font-family: 'Montserrat Alternates', sans-serif;
+    overflow-x: hidden;
+}
+
+/* --++ Bug font awesome ++-- */
+a:hover, a:focus, a:active, a:visited, a:link {
+    text-decoration: none;
+}
+.fa:hover, .fa:focus, .fa:active, .fa:visited, .fa:link {
+    text-decoration: none;
+}
+
+ul > li {
+    list-style: none; 
+}
+
+ul > li > i {
+    text-decoration: none;
+    color: black; 
+    background-color: rgb(255, 255, 255);
+    padding: 12px 18px ;
+    border-radius: 10px;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: black; 
+    padding: 10px 30px ;
+    border-radius: 10px;
+}
+ul > li:first-child > a, ul > li:first-child > i  {
+    background-color: rgb(255, 147, 165);
+}
+
+ul > li > a:hover {
+    background-color: rgb(253, 59, 92); 
+}
+
+.container {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.405); 
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 80vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    flex: 1;
+    max-width: 15%;
+    text-align: center;
+}
+
+.avatar {
+margin-top: 10px;
+}
+
+.sidebarMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.sidebarMenu > ul > li {
+    padding: 20px;
+    max-height: 100%;
+}
+.fd {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.fd > .fdPicture {
+    position: absolute;
+    z-index: 1;
+    top: -100px;
+    left: 45px;
+}
+.fd > .box {
+    background-color: rgba(255, 255, 255, 0.886);
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin: 0 20px 0 20px;
+}
+
+.container2 {
+    flex: 2;
+    margin: 20px;
+    max-width: 80%;
+    max-height: 95%;
+    background-color: rgba(255, 255, 255, 0.853); 
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container2 .containerBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.topContainerBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.topItemContainer{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foodMenu, .itemContainerMenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.foodMenu .box, .itemContainerMenu .box {
+    position: relative;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+.itemContainerMenu > .box > .ribbon {
+    position: absolute;
+}
+
+.containerEtc .boxDiscount, .containerEtc .contentArticle {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.containerEtc .contentArticle .icon {
+    flex-shrink: 0;
+}
+.containerEtc .contentArticle .content {
+    flex-grow: 1;
+    padding: 10px;
+}
+.topArticle {
+    display: flex;
+    justify-content: left;
+}
